@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flower">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:background="@color/MistyRose"
+            android:text="Flower's Name"/>
+
+        <ImageView
+            android:layout_width="421dp"
+            android:layout_height="271dp"
+            android:padding="20dp"
+            android:src="@drawable/rose"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rose"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/coustombutton_two"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:layout_width="421dp"
+            android:layout_height="271dp"
+            android:padding="20dp"
+            android:src="@drawable/aster"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aster"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/coustombutton_two"
+            android:gravity="center"
+            android:textSize="30dp"/>
+        <ImageView
+            android:layout_width="421dp"
+            android:layout_height="271dp"
+            android:padding="20dp"
+            android:src="@drawable/bluewaterlily"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue Water Lily"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/coustombutton_two"
+            android:gravity="center"
+            android:textSize="30dp"/>
+        <ImageView
+            android:layout_width="421dp"
+            android:layout_height="271dp"
+            android:padding="20dp"
+            android:src="@drawable/jasmine"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jasmine"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/coustombutton_two"
+            android:gravity="center"
+            android:textSize="30dp"/>
+        <ImageView
+            android:layout_width="421dp"
+            android:layout_height="271dp"
+            android:padding="20dp"
+            android:src="@drawable/sunflower"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sunflower"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/coustombutton_two"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

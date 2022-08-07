@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Animal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:background="@color/teal_700"
+            android:text="Animal's Name"/>
+
+        <ImageView
+            android:layout_width="421dp"
+            android:layout_height="271dp"
+            android:padding="20dp"
+            android:src="@drawable/tiger"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiger"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/custombutton"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:layout_width="421dp"
+            android:layout_height="271dp"
+            android:padding="20dp"
+            android:src="@drawable/lion"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lion"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/custombutton"
+            android:gravity="center"
+            android:textSize="30dp"/>
+        <ImageView
+            android:layout_width="421dp"
+            android:layout_height="271dp"
+            android:padding="20dp"
+            android:src="@drawable/bear"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bear"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/custombutton"
+            android:gravity="center"
+            android:textSize="30dp"/>
+        <ImageView
+            android:layout_width="421dp"
+            android:layout_height="271dp"
+            android:padding="20dp"
+            android:src="@drawable/dog"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dog"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/custombutton"
+            android:gravity="center"
+            android:textSize="30dp"/>
+        <ImageView
+            android:layout_width="421dp"
+            android:layout_height="271dp"
+            android:padding="20dp"
+            android:src="@drawable/cat"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cat"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/custombutton"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
